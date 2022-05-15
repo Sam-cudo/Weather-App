@@ -1,0 +1,33 @@
+body {
+
+  background-color: #FA8BFF;
+  background-image: linear-gradient(90deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+  
+  );
+}
+.container {
+  margin-top: 2rem;
+  max-width: 25rem;
+  background-color: #FA8BFF;
+  background-image: linear-gradient(9270deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+  border-radius: 10px;
+  box-shadow: 1px 2px 10px #ccc;
+}
+#weatherwidget {
+  min-height: 18rem;
+  background: #fff;
+  border-radius: 5px;
+}
+.card {
+  width: 100%;
+}
+.card .card-subtitle {
+  font-size: 4rem;
+}
+.card .cel:after {
+  content: "°C";
+  position: absolute;
+  font-size: 2.5rem;
+  margin-top: 0.3rem;
+  font-weight: 400;
+}
